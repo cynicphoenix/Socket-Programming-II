@@ -4,11 +4,11 @@ Demo Link:
 https://www.youtube.com/watch?v=sKeVvWHrjAU
 <br/>
 
-In the Socket Programming assignment, I created a peer-to-peer network of multiple nodes which were able to
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the Socket Programming assignment, I created a peer-to-peer network of multiple nodes which were able to
 communicate with one-another by exchanging messages (there were a total of 6 Nodes A, B, C
 and D, a client node and a server node).<br/>
 
-Let us extend the capabilities of that peer-to-peer network to transfer a file of moderate
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let us extend the capabilities of that peer-to-peer network to transfer a file of moderate
 size from one node to another.  need to perform an application level framing of the file in order
 to transfer it from one node to another. Fix the size of the frames to be 100 KB or I can take
 frame size as input from the user (in KBs). Let us say when the authentication is successful, the client needs to upload a file (like
@@ -19,9 +19,9 @@ network. Both the servers are all the same except for their own IP addresses and
 addition, these servers also cause random delays (the minimum delay is the RTT between client
 and server nodes) in the forwarding of frames to the destination nodes.
 The client knows about both the servers and for each message/frame, it chooses one of
-the servers alternatively.<br/><br/>
+the servers alternatively.<br/>
 
-For the file transfer, here is a sample text file: Sakoontala or The Lost Ring: http://
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the file transfer, here is a sample text file: Sakoontala or The Lost Ring: http://
 www.gutenberg.org/cache/epub/12169/pg12169.txt
 However, I am free choose any other of my favourite books’ text file from the Gutenberg
 project as samples for this assignment. I must test my implementation with 2-3 sample files
@@ -30,9 +30,9 @@ Further, to ensure an error free delivery of the frames, I should implement a ch
 based error detection method for the frames. The checksum should be transmitted with each
 frame. In case, the received frames get corrupted during the transmission, such frames must be
 retransmitted. Basically, I have to implement Stop-and-Wait ARQ protocol.
-<br/><br/>
+<br/>
 
-As I would not note any error in the transmission in the LAN of my Lab, create a
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I would not note any error in the transmission in the LAN of my Lab, create a
 mechanism that corrupts the frames with some probability p. Take the value of p as an input from
 the user. Yo can set p = 0.1 as default value.
 At the ultimate destination of each file, the data in the frames must be combined in a
@@ -40,8 +40,8 @@ particular order so that the original text file can be recovered. Only when the 
 recovered, the destination node should send a message of successful data transfer to the client
 node.
 
-<br/><br/>
-Note: I must display all the intermediate message exchanges on the consoles of all the nodes
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note: I must display all the intermediate message exchanges on the consoles of all the nodes
 of I peer-to-peer network.
 Topic (in that order) Marks
 Correct transfer of file with framing 20
