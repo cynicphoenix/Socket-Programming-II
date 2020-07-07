@@ -1,10 +1,10 @@
 # Socket-Programming-II
 
-Demo Link:
-https://www.youtube.com/watch?v=sKeVvWHrjAU
+### Demo Link:
+![Alt Text](https://raw.githubusercontent.com/cynicphoenix/Socket-Programming-II/master/Screenshot%20(97).png?token=AK7XLBX67RZGOTR4ZGIWGTC7BWXPA)
 <br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the Socket Programming assignment, I created a peer-to-peer network of multiple nodes which were able to
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This assignment includes some element from Socket Programming Assignment-I. In the Socket Programming assignment, I created a peer-to-peer network of multiple nodes which were able to
 communicate with one-another by exchanging messages (there were a total of 6 Nodes A, B, C
 and D, a client node and a server node).<br/>
 
